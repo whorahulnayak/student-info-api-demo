@@ -4,6 +4,12 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+#ignore the following files
+src/main/resources/application.properties
+src/main/resources/application-dev.properties
+src/main/resources/application-prod.properties
+src/main/resources/application-test.properties
+
 ### STS ###
 .apt_generated
 .classpath
